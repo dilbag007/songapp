@@ -1,0 +1,11 @@
+<div class="col-md-1"></div>
+<div class="col-md-6" style="height: 490px;">
+	<div class="form-group">
+		<input #con class="form-control" type="text" name="ConNo" placeholder="Enter Contact Number">
+		<input #pwd class="form-control" type="password" name="Pswd" placeholder="Enter Password">
+		<a routerLink="/signup">Create New Account</a>
+		<br>
+		<button (click)="submit(con.value, pwd.value)">Submit</button>
+	</div>
+</div>
+<div class="col-md-1"></div>

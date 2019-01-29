@@ -1,0 +1,16 @@
+<div class="col-md-1"></div>
+<div class="col-md-6" style="height: 490px">
+
+<h1 style="text-align: center;">Add Song</h1>
+
+<div class="form-group">
+	<input type="text" class="form-control" #inName placeholder="Enter Song Name Here" required>
+	<input type="text" class="form-control" #inURL placeholder="Enter URL for Song Thumbnail" required>
+	<input type="text" class="form-control" #inDesc placeholder="Enter Description of Song" required>
+	<input type="text" class="form-control" #inCat placeholder="Enter Language of Song(Optional)">
+	<button (click)="crAndAdd(inName.value, inURL.value, inDesc.value, inCat.value)">Add Song</button>
+</div>
+
+</div>
+
+<div class="col-md-1"></div>

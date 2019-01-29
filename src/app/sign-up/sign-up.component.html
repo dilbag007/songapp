@@ -1,0 +1,13 @@
+<div class="col-md-1"></div>
+<div class="col-md-6" style="height: 490px;">
+	<div class="form-group">
+		<input #con class="form-control" type="text" name="ConNo" placeholder="Enter Contact Number">
+		<input #fn class="form-control" type="text" name="FName" placeholder="Enter First Name">
+		<input #ln class="form-control" type="text" name="LName" placeholder="Enter Last Name">
+		<input #em class="form-control" type="email" name="Eml" placeholder="Enter E-Mail">
+		<input #ps class="form-control" type="password" name="Pswd" placeholder="Enter Password">
+		<!-- <input type="submit" value="Submit"> -->
+		<button (click)="submit(fn.value, ln.value, em.value, con.value, ps.value)">Submit</button>
+	</div>
+</div>
+<div class="col-md-1"></div>

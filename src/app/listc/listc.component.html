@@ -1,0 +1,9 @@
+<ul class="list-group">
+	<li *ngFor="let x of songs; let i = index" class="list-group-item">
+		<a routerLink="/home/{{x._id}}" routerLinkActive="active">
+			{{x.name}}
+		</a>
+	</li>
+</ul>
+
+<!-- [queryParams] = "{ edit : '1'}" -->
